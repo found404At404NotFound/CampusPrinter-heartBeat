@@ -3,7 +3,10 @@ from sqlalchemy import create_engine, text
 
 DB_URL = os.environ["DB_URL"]
 
-engine = create_engine(DB_URL, pool_pre_ping=True)
+engine = create_engine(
+    DB_URL.replace("postgresql://", "postgresql+psycopg2://"),
+    pool_pre_ping=True
+)
 
 
 def main(context):
