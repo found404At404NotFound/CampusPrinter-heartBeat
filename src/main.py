@@ -13,7 +13,7 @@ engine = create_engine(
 ALLOWED_ORIGINS = {
     "https://printer.mangojam.me",
     "https://mangojam.me",
-    "http://localhost:5005",
+    "http://127.0.0.1:5005",
     "http://localhost:5173",
 }
 
