@@ -15,6 +15,7 @@ ALLOWED_ORIGINS = {
     "https://mangojam.me",
     "http://127.0.0.1:5005",
     "http://localhost:5173",
+    "https://girls-treated-national-speaker.trycloudflare.com"
 }
 
 
