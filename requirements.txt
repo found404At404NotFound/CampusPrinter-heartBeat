@@ -1,3 +1,4 @@
 appwrite
 SQLAlchemy
 psycopg2-binary
+psycopg
