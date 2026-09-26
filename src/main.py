@@ -15,6 +15,7 @@ ALLOWED_ORIGINS = {
     "https://mangojam.me",
     "http://127.0.0.1:5005",
     "http://localhost:5173",
+    "http://192.168.1.5:5005",
     "https://doctrine-hunting-hosting-bryant.trycloudflare.com"
 }
 
