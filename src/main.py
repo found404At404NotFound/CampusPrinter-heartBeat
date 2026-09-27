@@ -16,7 +16,7 @@ ALLOWED_ORIGINS = {
     "http://127.0.0.1:5005",
     "http://localhost:5173",
     "http://192.168.1.5:5005",
-    "https://precision-cnet-consistently-drill.trycloudflare.com"
+    "https://inquiry-balloon-administrators-kid.trycloudflare.com"
 }
 
 
