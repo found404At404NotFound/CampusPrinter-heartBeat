@@ -11,8 +11,8 @@ engine = create_engine(
 # Origins allowed to call this function from a browser.
 # Add every origin your frontend is served from.
 ALLOWED_ORIGINS = {
-    "https://printer.mangojam.me",
-    "https://mangojam.me",
+    "https://printer.found404.me",
+    "https://found404.me",
     "http://127.0.0.1:5005",
     "http://localhost:5173",
     "http://192.168.1.5:5005",
