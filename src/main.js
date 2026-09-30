@@ -21,13 +21,13 @@ function ping(url) {
   });
 }
 
-module.exports = async function (req, res) {
+module.exports = async function (context) {
   if (!TARGET_URL) {
     console.error('TARGET_URL env var is not set');
-    return res.json({ ok: false, error: 'TARGET_URL not configured' }, 500);
+    return context.res.json({ ok: false, error: 'TARGET_URL not configured' }, 500);
   }
 
   const result = await ping(TARGET_URL);
   console.log('Keep-alive ping:', TARGET_URL, JSON.stringify(result));
-  return res.json({ ok: result.status === 200, target: TARGET_URL, ...result });
+  return context.res.json({ ok: result.status === 200, target: TARGET_URL, ...result });
 };
